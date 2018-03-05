@@ -1,0 +1,160 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigation{
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+    font-size: 18px;
+    padding:20px 15px 15px 15px;
+    margin-left:20px;
+    
+    /*background-color: darkslategray; */
+    
+}
+.flex1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logonameflex{
+    flex:1;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logoname{
+    flex:1;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.yingimg{
+    flex: 1;
+    margin:5px;    
+}
+.yingyang{
+    height:45px;
+    width: 45px;
+   animation: spin 3s linear infinite;
+   float:right;
+}
+
+/*@keyframes spin{ 
+    from {
+    -webkit-transform: rotate(0deg)
+}
+    to{ 
+    -webkit-transform: rotate(360deg)
+
+}
+}
+*/
+.myname{
+    flex: 3;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navlinkbox{
+    display: flex;
+    flex: 1;
+}
+.navlinks{
+    flex: 1;
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    float: right;
+    margin-right:10vw;
+}
+.navlink{
+    display: flex;
+    flex:1;
+    margin:5px;
+    justify-content: center;
+    margin-top:0;
+    margin-bottom:0;
+    
+}
+.first-link{
+    margin-left:5.5vw;
+}
+.navicon{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.navicon:hover{
+    color:yellow;
+}
+.video1{
+    z-index: 2;
+}
+.container1 {
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.background:after{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    background-image: url("../video/Programgif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 85vh;
+    opacity : 0.2;
+    z-index: -100000;
+    
+}
+.flextitle{
+    flex:1;
+}
+.title{
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 13%;
+}
+.mybrand{
+    flex:1;
+    text-align: center;
+    font-size: 1.25em;
+    margin-left: 338px;
+    margin-right: 324px;
+    position:relative;
+    margin-top:0;
+
+}
+.videobuttonflex{
+    flex:1;
+}
+.videobutton{
+    font-size: 50px; 
+    position: relative;
+    bottom: 20%;
+    font-weight: normal;
+    
+    
+}
+.downbutton{
+    flex:1;
+    font-weight: normal;
+}
+.downbutton>a>i,.videobutton>a>i{
+    color: black;
+}
+
