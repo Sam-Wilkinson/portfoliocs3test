@@ -178,4 +178,18 @@ body{
     list-style: none;
     text-align: center;
 }
+.imagesfolder{
+    margin-left: 2%;
+    margin-right: 2%
+}
+.imagesfolder>div div{
+    text-align:center;
+}
+
+.imagesfolder>div div>img{
+    width: 312px;
+    height: 215px;
+    padding: 3%;
+    
+}
 
