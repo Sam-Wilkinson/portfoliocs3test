@@ -1,5 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
 }
 
 .navigation{
@@ -154,13 +155,27 @@ body{
     flex:1;
     font-weight: normal;
 }
-.downbutton>a>i,.videobutton>a>i{
+.videobutton>a>svg,.downbutton>a>svg,.videobutton>a>i,.downbutton>a>i{
     color: black;
+    text-decoration: none;
 }
 .headingwork{
     text-align:center;
+    margin-bottom: 50px;
+}
+.worktitle{
+    font-size: 3.5em;
 }
 .workingtitle2{
-    color
+    color: red;
+    font-size: 20px;
+}
+.projectlist{
+    margin-left: 10vw;
+    margin-right:10vw; 
+}
+.projectlist>ul div div li{
+    list-style: none;
+    text-align: center;
 }
 
