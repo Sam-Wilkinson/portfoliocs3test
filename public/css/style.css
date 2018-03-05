@@ -177,6 +177,7 @@ body{
 .projectlist>ul div div li{
     list-style: none;
     text-align: center;
+    color: black;
 }
 .imagesfolder{
     margin-left: 2%;
@@ -190,6 +191,39 @@ body{
     width: 312px;
     height: 215px;
     padding: 3%;
+}
+.projectlist>ul div div li a{
+    color: black;
+    text-decoration: none;
+}
+.projectlist>ul div div li a:hover{
+    color:red;
+}
+.projectlist>ul>div:first-child>div>li:first-child>a{
+    color:red;
+    border-bottom: 5px solid red;
+}
+.imagesfolder>div>div>img{
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.text {
+    color: black;
+  transition: 1.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.imagesfolder>div:first-child>div:hover .imagesofwork{
+    opacity:0.3;
     
 }
+.imagesfolder>div:first-child>div:hover .text{
+    opacity:1;
+
 
